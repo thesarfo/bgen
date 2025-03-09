@@ -1,4 +1,4 @@
-module Markup
+module HsBlog.Markup
   ( Document
   , Structure(..)
   , parse
@@ -17,7 +17,7 @@ data Structure
   | UnorderedList [String]
   | OrderedList [String]
   | CodeBlock [String]
-  deriving (Eq, Show)    -- (1)
+  deriving (Eq, Show)
 
 
 parse :: String -> Document
