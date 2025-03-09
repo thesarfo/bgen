@@ -1,3 +1,5 @@
+-- | Entry point for the hs-blog-gen program
+
 module Main where
 
 import OptParse
