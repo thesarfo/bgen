@@ -3,11 +3,17 @@ module HsBlog.Html
   , Title
   , Structure
   , html_
-  , h_
   , p_
+  , h_
   , ul_
   , ol_
   , code_
+  , Content
+  , txt_
+  , img_
+  , link_
+  , b_
+  , i_
   , render
   )
   where
